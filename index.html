@@ -12,24 +12,28 @@
     <!-- Vuejs -->
     <script src="https://unpkg.com/vue"></script>
 
-    <style>
-    .slides {
-      display: none;
-    }
+    <!-- Velocity.js -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
-    body {
-      background-color: #ffebba;
-    }
+    <style>
+      .slides {
+        display: none;
+      }
+
+      body {
+        background-color: #ffebba;
+      }
     </style>
 
   </head>
   <body>
 
-    <div id="app">
+    <div id="app" class="w3-content w3-section" style="max-width: 500px">
 
-      <!-- Render Slideshow Component -->
-      <my-slideshow></my-slideshow>
-      
+        <!-- Render Slideshow Component -->
+        <my-slideshow></my-slideshow>
+
     </div>
 
     <script src="app.js"></script>
